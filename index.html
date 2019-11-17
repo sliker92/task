@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Task</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header" id="home">
+    <div class="header-container">
+      <h1 class="header-logo">
+        <strong class="header-logo__name">Doob</strong>
+      </h1>
+      <div class="header-nav-container">
+        <nav class="header-nav">
+          <ul class="header-nav-list">
+            <li><a class="header-nav-list__item" href="#home">Home.</a></li>
+            <li><a class="header-nav-list__item" href="#about">About us.</a></li>
+            <li><a class="header-nav-list__item" href="#portfolio">Portfolio.</a></li>
+            <li><a class="header-nav-list__item" href="#blog">Blog.</a></li>
+            <li><a class="header-nav-list__item" href="#contact">Contact us.</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header-nav-burger">
+        <span class="header-nav-burger__lines"></span>
+      </div>
+
+      <span class="header-language">en</span>
+
+      <div class="header-contact-container">
+        <a class="header-contact__link" href="#contact">Contact Us</a>
+        <span class="header-contact__arrow"></span>
+      </div>
+    </div>
+  </header>
+  <!-- Main -->
+  <main>
+    <!-- Agency -->
+    <section class="agency-section" id="about">
+      <div class="agency-section-left-side">
+        <h2 class="agency-section-header">The Spirit of Digital Agency.</h2>
+        <p class="agency-section-desc">Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla
+          porttitor
+          accumsan tincidunt.</p>
+        <a class="agency-section-btn__red btn_red" href="#">More About us</a>
+        <a class="agency-section-link section-link" href="#">Get in Touch.</a>
+      </div>
+      <div class="agency-section-right-side">
+        <img id="illustration" src="./img/Vector_Illustration.jpg" alt="ilustration">
+      </div>
+    </section>
+    <!-- Portfolio -->
+    <section class="portfolio-section" id="portfolio">
+      <h3 class="portfolio-section-header">See some of our Creative work.</h3>
+      <div class="portfolio-section-item-container">
+        <div class="portfolio-section-item"></div>
+        <div class="portfolio-section-item"></div>
+        <div class="portfolio-section-item"></div>
+        <div class="portfolio-section-item"></div>
+        <div class="portfolio-section-item"></div>
+        <div class="portfolio-section-item"></div>
+      </div>
+      <a class="portflolio-section-link section-link" href="">
+        See More of These.
+      </a>
+    </section>
+    <!-- Contact -->
+    <section class="contact-section">
+      <h4 class="contact-section-header">
+        contact us
+      </h4>
+      <h3 class="contact-section-form-header">
+        Get in Touch
+      </h3>
+      <form id="form">
+        <input placeholder="Your email" type="email" id="email" required="">
+        <input placeholder="Subject" type="text" id="text" required="">
+        <textarea placeholder="Message here..." id="message" name="message" rows="5" cols="1">Message here...</textarea>
+        <button type="submit" class="footer-form-btn__red btn_red">Send Message</button>
+      </form>
+    </section>
+  </main>
+  <!-- Footer -->
+  <footer class="footer" id="contact">
+    <h3 class="footer-logo">doob</h3>
+    <h4 class="footer-header">Creativity above</h4>
+    <nav class="footer-nav">
+      <ul class="footer-nav-list">
+        <li><a class="footer-nav-list__item" href="#home">Home.</a></li>
+        <li><a class="footer-nav-list__item" href="#about">About us.</a></li>
+        <li><a class="footer-nav-list__item" href="#portfolio">Portfolio.</a></li>
+        <li><a class="footer-nav-list__item" href="#blog">Blog.</a></li>
+        <li><a class="footer-nav-list__item" href="#contact">Contact us.</a></li>
+      </ul>
+    </nav>
+    <small class="footer-license"> &copy; 2019 - Doob,All Right Reserved</small>
+    <ul class="footer-social-links">
+      <li><a href="#"><img src="./img/ico/Facebook.svg" alt="facebook"></a></li>
+      <li><a href="#"><img src="./img/ico/Twitter.svg" alt="twitter"></a></li>
+      <li><a href="#"><img src="./img/ico/Dribble.svg" alt="dribble"></a></li>
+    </ul>
+  </footer>
+  <script src="./scripts/main.js"></script>
+</body>
+
+</html>
